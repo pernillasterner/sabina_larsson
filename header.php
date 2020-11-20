@@ -11,11 +11,9 @@
     <!-- ADD ICON HERE -->
     <div class="site-header__menu group">
       <nav class="main-navigation">
-        <ul>
-          <!-- ADD MENU LEFT HERE -->
+        <?php wp_nav_menu(array('theme_location' => 'menu_left')); ?>
           <!-- ADD SABINA LARSSON TITLE HERE -->
-          <!-- ADD MENU RIGHT HERE -->
-        </ul>
+        <?php wp_nav_menu(array('theme_location' => 'menu_right')); ?>
       </nav>
       <!-- ADD SOCIAL ICONS HERE -->
     </div>
