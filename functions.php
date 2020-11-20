@@ -12,6 +12,10 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 // BASIC SETUP
 function init() {
+  // Navigation menu
+  register_nav_menu( 'menu_right', 'Header Menu Right' );
+  register_nav_menu( 'menu_left', 'Header Menu Left' );
+
   // Generate title tag
   add_theme_support('title-tag');
 }
