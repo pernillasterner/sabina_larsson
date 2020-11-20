@@ -1,0 +1,15 @@
+/*
+Theme Name: Sabina Larsson
+Theme URI: https://wordpress.org/themes/sabina_larsson
+Author: Pernilla Sterner
+Author URI: https://wordpress.org/
+Requires PHP: 5.2.4
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sabinalarsson
+*/
+
+body {
+  background-color: lightgray;
+}
