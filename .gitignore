@@ -1,0 +1,9 @@
+# System files
+.DS_Store
+
+# IDE files
+.htaccess
+
+# Mockup files
+Mockup_1.0.pdf
+Mockup_2.0.pdf
