@@ -4,6 +4,9 @@
 # IDE files
 .htaccess
 
+# Modul files
+node_modules
+
 # Mockup files
 Mockup_1.0.pdf
 Mockup_2.0.pdf
