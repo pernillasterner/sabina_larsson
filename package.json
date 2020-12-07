@@ -1,0 +1,22 @@
+{
+  "name": "sabina_larsson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pernillasterner/sabina_larsson.git"
+  },
+  "author": "Pernilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pernillasterner/sabina_larsson/issues"
+  },
+  "homepage": "https://github.com/pernillasterner/sabina_larsson#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

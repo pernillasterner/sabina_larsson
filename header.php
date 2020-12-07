@@ -8,14 +8,22 @@
 <body <?php body_class(); ?>>
 <header class="site-header">
   <div class="container">
-    <!-- ADD ICON HERE -->
     <div class="site-header__menu group">
       <nav class="main-navigation">
-        <?php wp_nav_menu(array('theme_location' => 'menu_left')); ?>
-          <!-- ADD SABINA LARSSON TITLE HERE -->
-        <?php wp_nav_menu(array('theme_location' => 'menu_right')); ?>
+        <div class="logo-sabina-larsson"></div>
+        <div class="main-menu">
+        <?php wp_nav_menu(array(
+          'theme_location' => 'menu_left',
+          'menu_class' =>'header-menu-left'
+          )); ?>
+          <div class="headline-sabina-larsson">SABINA LARSSON</div>
+        <?php wp_nav_menu(array(
+          'theme_location' => 'menu_right',
+          'menu_class' => 'header-menu-right'
+          )); ?>
+          </div>
+        <div class="social-icons"></div>
       </nav>
-      <!-- ADD SOCIAL ICONS HERE -->
     </div>
   </div>
 </header>
