@@ -137,6 +137,10 @@ nav.main-navigation {
       justify-content: space-evenly;
       align-items: center;
       .contact-info {
+        text-align: center;
+        h3 {
+          text-transform: uppercase;
+        }
         a {
           text-transform: inherit;
         }
@@ -153,6 +157,11 @@ nav.main-navigation {
         width: 150px;
         img {
           width: 100%;
+        }
+      }
+      .newsletter {
+        h3 {
+          text-transform: uppercase;
         }
       }
     }

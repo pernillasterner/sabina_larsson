@@ -3,7 +3,7 @@
       <div class="site-footer__info group">
         <div class="main-info">
           <div class="contact-info">
-            <h3>Kontaktinformation</h3>
+            <h3>kontakt</h3>
             <a class="mailto" href = "mailto: sabina@kontakt.se">sabina@kontakt.se</a>
             <ul class="social-icons">
               <li><a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=265555" target="_blank"><i class="fas fa-infinity"></i></a></li>
@@ -16,7 +16,7 @@
           </div>
           <div class="newsletter">
             <form action="">
-              <h3>Nyhetsbrev</h3>
+              <h3>nyhetsbrev</h3>
               <input type="text" placeholder="Din e-post adress" name="mail" required>
               <input type="submit" value="SIGNA UPP">
           </form>

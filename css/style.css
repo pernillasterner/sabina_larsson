@@ -111,18 +111,24 @@ nav.main-navigation {
       display: flex;
       justify-content: space-evenly;
       align-items: center; }
-      .container .site-footer__info .main-info .contact-info a {
-        text-transform: inherit; }
-      .container .site-footer__info .main-info .contact-info .social-icons {
-        display: flex;
-        justify-content: center; }
-        .container .site-footer__info .main-info .contact-info .social-icons li {
-          margin: 0 0.5rem; }
+      .container .site-footer__info .main-info .contact-info {
+        text-align: center; }
+        .container .site-footer__info .main-info .contact-info h3 {
+          text-transform: uppercase; }
+        .container .site-footer__info .main-info .contact-info a {
+          text-transform: inherit; }
+        .container .site-footer__info .main-info .contact-info .social-icons {
+          display: flex;
+          justify-content: center; }
+          .container .site-footer__info .main-info .contact-info .social-icons li {
+            margin: 0 0.5rem; }
       .container .site-footer__info .main-info .logo-sabina-larsson {
         height: 150px;
         width: 150px; }
         .container .site-footer__info .main-info .logo-sabina-larsson img {
           width: 100%; }
+      .container .site-footer__info .main-info .newsletter h3 {
+        text-transform: uppercase; }
   .container .site-footer__copyrights {
     display: flex;
     flex-direction: row;
