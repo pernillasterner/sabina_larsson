@@ -10,7 +10,9 @@
   <div class="container">
     <div class="site-header__menu group">
       <nav class="main-navigation">
-        <div class="logo-sabina-larsson"></div>
+        <div class="logo-sabina-larsson">
+          <a href="<?php echo home_url(); ?>"><img src="https://cdn.freebiesupply.com/logos/large/2x/50x50-logo-black-and-white.png" alt=""></a>
+        </div>
         <div class="main-menu">
         <?php wp_nav_menu(array(
           'theme_location' => 'menu_left',
