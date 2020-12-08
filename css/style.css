@@ -54,7 +54,7 @@ li {
   display: inline;
   margin: 0 1rem; }
 
-li a {
+a {
   display: block;
   text-align: center;
   text-transform: uppercase;
@@ -62,15 +62,16 @@ li a {
 
 /* NAVIGATION BAR */
 nav.main-navigation {
-  overflow: hidden;
+  overflow: visible;
+  height: 50px;
   padding: 0 6em;
   display: flex;
   justify-content: center;
   background-color: white;
   align-items: center; }
   nav.main-navigation .logo-sabina-larsson {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 70px;
     background-color: black; }
   nav.main-navigation .main-menu {
     overflow: hidden;
@@ -93,7 +94,7 @@ nav.main-navigation {
       nav.main-navigation .main-menu .menu-header-menu-right-container ul.header-menu-right {
         display: flex;
         justify-content: flex-start; }
-  nav.main-navigation .social-icons {
-    width: 100px;
-    height: 30px;
-    background-color: magenta; }
+  nav.main-navigation .social-icons ul {
+    display: flex; }
+  nav.main-navigation .social-icons li {
+    margin: 0.5rem; }

@@ -16,13 +16,19 @@
           'theme_location' => 'menu_left',
           'menu_class' =>'header-menu-left'
           )); ?>
-          <div class="headline-sabina-larsson">SABINA LARSSON</div>
+          <div class="headline-sabina-larsson"><a href="<?php echo home_url(); ?>">SABINA LARSSON</a></div>
         <?php wp_nav_menu(array(
           'theme_location' => 'menu_right',
           'menu_class' => 'header-menu-right'
           )); ?>
           </div>
-        <div class="social-icons"></div>
+        <div class="social-icons">
+          <ul>
+            <li><a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=265555" target="_blank"><i class="fas fa-infinity"></i></a></li>
+            <li><a href="https://www.instagram.com/sabinalarssonyoga" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+            <li><a href="https://www.facebook.com/SabinaLarssonYoga/" target="_blank"><i class="fab fa-facebook"></i></i></a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </div>

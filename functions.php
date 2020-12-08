@@ -6,6 +6,9 @@ function add_theme_scripts() {
   wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css', null, 1.0, 'all' );
   // Loading JS
   wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', null, 1.0, true);
+  // Loading FONTS
+  wp_register_script( 'font-awesome', 'https://kit.fontawesome.com/4293e854d5.js', array(), 1.0, false );
+  wp_enqueue_script('font-awesome');
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
