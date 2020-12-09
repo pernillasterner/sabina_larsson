@@ -3,7 +3,7 @@
   <?php while(have_posts()) : the_post();
     
     /**______HERO BANNER SECTION______**/
-    get_template_part( '/temp/hero-banner' );
+    get_template_part( '/template-parts/hero-banner' );
     
     
    
