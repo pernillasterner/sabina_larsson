@@ -134,10 +134,13 @@ nav.main-navigation {
       .container .site-footer__info .main-info .newsletter h3 {
         text-transform: uppercase; }
   .container .site-footer__copyrights {
+    background-color: #3e3e3e;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative; }
+    .container .site-footer__copyrights p {
+      color: #a9a9a9; }
     .container .site-footer__copyrights .made-by {
       position: absolute;
       right: 0;

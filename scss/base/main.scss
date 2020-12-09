@@ -172,10 +172,12 @@ nav.main-navigation {
   }
 
   .site-footer__copyrights {
+    background-color: $darkerGrey;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
+    p { color: $cream; }
     .made-by {
       position: absolute;
       right: 0;
