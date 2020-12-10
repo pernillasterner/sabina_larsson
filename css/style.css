@@ -35,6 +35,12 @@ main {
   display: block; }
 
 /**
+ * Smooth scrolling on the whole document
+ */
+html {
+  scroll-behavior: smooth; }
+
+/**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
@@ -167,3 +173,74 @@ nav.main-navigation {
     .site-hero-content .hero-content p.hero-text {
       color: #fff;
       font-size: 1.5rem; }
+
+.site-workshop-content {
+  display: flex;
+  margin: 30px 0; }
+  .site-workshop-content .image-container {
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .site-workshop-content .content-container {
+    position: relative;
+    width: 50%;
+    background-color: #e3e3e3;
+    display: flex; }
+    .site-workshop-content .content-container .content-inner-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%; }
+      .site-workshop-content .content-container .content-inner-container h2, .site-workshop-content .content-container .content-inner-container h3, .site-workshop-content .content-container .content-inner-container h4, .site-workshop-content .content-container .content-inner-container h6, .site-workshop-content .content-container .content-inner-container p {
+        color: #565658; }
+      .site-workshop-content .content-container .content-inner-container .title-container {
+        position: absolute;
+        top: 70px;
+        left: 10%; }
+        .site-workshop-content .content-container .content-inner-container .title-container h2 {
+          text-transform: uppercase;
+          font-size: 3rem; }
+      .site-workshop-content .content-container .content-inner-container .info-container {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10px; }
+        .site-workshop-content .content-container .content-inner-container .info-container h3.heading {
+          font-size: 1.7rem; }
+        .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading {
+          font-size: 1.2rem; }
+        .site-workshop-content .content-container .content-inner-container .info-container .textarea {
+          margin: 20px 0; }
+        .site-workshop-content .content-container .content-inner-container .info-container h6.price {
+          font-size: 0.8rem; }
+      .site-workshop-content .content-container .content-inner-container .notification {
+        position: absolute;
+        bottom: 110px;
+        text-align: center; }
+        .site-workshop-content .content-container .content-inner-container .notification a {
+          text-transform: lowercase; }
+    .site-workshop-content .content-container .general-info {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      margin-top: 10px; }
+      .site-workshop-content .content-container .general-info .location, .site-workshop-content .content-container .general-info .payment {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+      .site-workshop-content .content-container .general-info .location {
+        background-color: #fff; }
+        .site-workshop-content .content-container .general-info .location h3, .site-workshop-content .content-container .general-info .location p {
+          color: #565658; }
+      .site-workshop-content .content-container .general-info .payment {
+        background-color: #000; }
+        .site-workshop-content .content-container .general-info .payment h3, .site-workshop-content .content-container .general-info .payment p {
+          color: #fff; }
