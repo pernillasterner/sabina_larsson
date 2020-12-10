@@ -15,7 +15,7 @@ $workshops = new WP_Query($args);
 ?>
 
 <!-- Display Post Type Workshop -->
-<div class="site-workshop-content"> 
+<div id="<?php echo ($workshops ? 'workshop' : '__AD__ID__NAME__' ); ?>" class="site-workshop-content"> 
   <?php while( $workshops->have_posts() ) : $workshops->the_post(); ?>
     
     <?php 
@@ -34,7 +34,7 @@ $workshops = new WP_Query($args);
         </div>
 
         <?php
-        // Loop through custom fields
+        // Loop through all custom fields
           for ($i = 1; $i <= 2; $i++) {
            
             $content = get_field('content_' . $i); ?>
