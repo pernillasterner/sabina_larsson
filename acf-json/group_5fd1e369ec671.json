@@ -1,9 +1,9 @@
 {
-    "key": "group_5fd0fd16e3b17",
+    "key": "group_5fd1e369ec671",
     "title": "50\/50",
     "fields": [
         {
-            "key": "field_5fd0fd2b6cff9",
+            "key": "field_5fd1e3706cc8a",
             "label": "Image 50",
             "name": "image_50",
             "type": "image",
@@ -16,7 +16,7 @@
                 "id": ""
             },
             "return_format": "array",
-            "preview_size": "medium_large",
+            "preview_size": "medium",
             "library": "all",
             "min_width": "",
             "min_height": "",
@@ -27,7 +27,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5fd0fd516cffa",
+            "key": "field_5fd1e3c981a03",
             "label": "Content 1",
             "name": "content_1",
             "type": "group",
@@ -42,7 +42,7 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5fd0fd796cffb",
+                    "key": "field_5fd1e42081a04",
                     "label": "Title",
                     "name": "title",
                     "type": "text",
@@ -61,7 +61,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd0fd8b6cffc",
+                    "key": "field_5fd1e42681a05",
                     "label": "Date",
                     "name": "date",
                     "type": "date_picker",
@@ -74,11 +74,11 @@
                         "id": ""
                     },
                     "display_format": "l,F j, Y",
-                    "return_format": "l,F j, Y",
+                    "return_format": "l,j F, Y",
                     "first_day": 1
                 },
                 {
-                    "key": "field_5fd0fdc86cffd",
+                    "key": "field_5fd1e43e81a06",
                     "label": "Heading",
                     "name": "heading",
                     "type": "text",
@@ -97,7 +97,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd0fdd96cffe",
+                    "key": "field_5fd1e44481a07",
                     "label": "Sub Heading",
                     "name": "sub_heading",
                     "type": "text",
@@ -116,7 +116,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd0fdf06cfff",
+                    "key": "field_5fd1e44f81a08",
                     "label": "Time",
                     "name": "time",
                     "type": "text",
@@ -135,9 +135,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd0fea9290a0",
-                    "label": "Content",
-                    "name": "content",
+                    "key": "field_5fd1e47d81a09",
+                    "label": "Text",
+                    "name": "text",
                     "type": "textarea",
                     "instructions": "",
                     "required": 0,
@@ -154,9 +154,47 @@
                     "new_lines": ""
                 },
                 {
-                    "key": "field_5fd0fed8290a1",
+                    "key": "field_5fd1e48b81a0a",
                     "label": "Price",
                     "name": "price",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd208a75faf4",
+                    "label": "Place",
+                    "name": "place",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd2090e8b56f",
+                    "label": "Adress",
+                    "name": "adress",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -175,7 +213,7 @@
             ]
         },
         {
-            "key": "field_5fd0ffc2db359",
+            "key": "field_5fd1e4978f06c",
             "label": "Content 2",
             "name": "content_2",
             "type": "group",
@@ -190,7 +228,43 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5fd12536db35c",
+                    "key": "field_5fd1e4a18f06d",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd1e4a88f06e",
+                    "label": "Date",
+                    "name": "date",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "l,F j, Y",
+                    "return_format": "l,j F, Y",
+                    "first_day": 1
+                },
+                {
+                    "key": "field_5fd1e4be8f06f",
                     "label": "Heading",
                     "name": "heading",
                     "type": "text",
@@ -209,7 +283,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd12540db35d",
+                    "key": "field_5fd1e4c68f070",
                     "label": "Sub Heading",
                     "name": "sub_heading",
                     "type": "text",
@@ -228,7 +302,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd1255bdb35e",
+                    "key": "field_5fd1e4d08f071",
                     "label": "Time",
                     "name": "time",
                     "type": "text",
@@ -247,9 +321,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd12575db35f",
-                    "label": "Content",
-                    "name": "content",
+                    "key": "field_5fd1e4e78f072",
+                    "label": "Text",
+                    "name": "text",
                     "type": "textarea",
                     "instructions": "",
                     "required": 0,
@@ -266,9 +340,47 @@
                     "new_lines": ""
                 },
                 {
-                    "key": "field_5fd12581db360",
+                    "key": "field_5fd1e4f28f073",
                     "label": "Price",
                     "name": "price",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd208ce5faf5",
+                    "label": "Place",
+                    "name": "place",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd2091b8b570",
+                    "label": "Adress",
+                    "name": "adress",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -304,5 +416,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1607542441
+    "modified": 1607611039
 }
