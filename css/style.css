@@ -256,3 +256,17 @@ nav.main-navigation {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px; }
+
+.review-container {
+  display: flex; }
+  .review-container .review {
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #D6D6D6; }
+    .review-container .review p {
+      font-size: 0.8rem;
+      margin: 0.5rem 0; }

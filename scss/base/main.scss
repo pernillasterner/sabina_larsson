@@ -318,7 +318,7 @@ nav.main-navigation {
   }
 }
 
-// Sektion Position
+// Section Position
 .position-container {
   display: flex;
   flex-wrap: wrap;
@@ -330,5 +330,24 @@ nav.main-navigation {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+  }
+}
+
+
+// Section Review
+.review-container {
+  display: flex;
+  .review {
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: $beige;
+    p {
+      font-size: 0.8rem;
+      margin: 0.5rem 0;
+    }
   }
 }
