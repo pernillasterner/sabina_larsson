@@ -13,13 +13,16 @@
     get_template_part( '/template-parts/workshop' );
 
 
-
     /**______POSITION SECTION______**/
     get_template_part( '/template-parts/position' );
 
 
-    /**______POSITION SECTION______**/
+    /**______WORKSHOP SECTION______**/
     get_template_part( '/template-parts/workshop' );
+
+
+    /**______REVIEWS SECTION______**/
+    get_template_part( '/template-parts/review' );
 
 
   ?>
