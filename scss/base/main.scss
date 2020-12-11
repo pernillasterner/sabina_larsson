@@ -316,5 +316,19 @@ nav.main-navigation {
       }
     }
   }
+}
 
+// Sektion Position
+.position-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  .position-image {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+  }
 }
