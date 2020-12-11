@@ -24,52 +24,52 @@ $workshops = new WP_Query($args);
     ?>
 
     <div class="image-container" style="background-image: url(<?php echo $image50['url']; ?>)"></div>
-    <div class="content-container">
-      <div class="content-inner-container">
-  
-        <div class="title-container">
-          <h2 class="title"><?php echo $content['title']; ?></h2>
-          <?php $date = explode(',', $content['date']); ?>
-          <p class="date"><?php  echo ucfirst($date[0]) . ', ' . ucfirst($date[1]) . $date[2]; ?></p>
-        </div>
+      <div class="content-container">
+        <div class="content-inner-container">
+    
+          <div class="title-container">
+            <h2 class="title"><?php echo $content['title']; ?></h2>
+            <?php $date = explode(',', $content['date']); ?>
+            <p class="date"><?php  echo ucfirst($date[0]) . ', ' . ucfirst($date[1]) . $date[2]; ?></p>
+          </div>
 
-        <?php
-        // Loop through all custom fields
-          for ($i = 1; $i <= 2; $i++) {
-           
-            $content = get_field('content_' . $i); ?>
-          
-            <div class="info-container">
-              <h3 class="heading"><?php  echo $content['heading']; ?></h3>
-              <h4 class="sub-heading"><?php  echo $content['sub_heading']; ?></h4>
-              <p class="time"><?php  echo $content['time']; ?></p>
-              <div class="textarea">
-                <p class="text"><?php  echo $content['text']; ?></p>
+          <?php
+          // Loop through all custom fields
+            for ($i = 1; $i <= 2; $i++) {
+            
+              $content = get_field('content_' . $i); ?>
+            
+              <div class="info-container">
+                <h3 class="heading"><?php  echo $content['heading']; ?></h3>
+                <h4 class="sub-heading"><?php  echo $content['sub_heading']; ?></h4>
+                <p class="time"><?php  echo $content['time']; ?></p>
+                <div class="textarea">
+                  <p class="text"><?php  echo $content['text']; ?></p>
+                </div>
+                <h6 class="price">Pris: <?php  echo $content['price']; ?>kr</h6>
               </div>
-              <h6 class="price">Pris: <?php  echo $content['price']; ?>kr</h6>
-            </div>
-          <?php } ?>
-       
+            <?php } ?>
+        
 
-        <div class="notification"><strong>Anmälan via mejl </strong><a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a></div>
-      
+          <div class="notification"><strong>Anmälan via mejl </strong><a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a></div>
+        
+        </div>
+
+        <div class="general-info">
+          <div class="location">
+            <h3>PLATS</h3>
+            <p class="place"><?php echo $content['place']; ?></p>
+            <p class="adress"><?php echo $content['adress']; ?></p>
+          </div>
+          <div class="payment">
+            <h3>BETALNING</h3>
+            <p class="swish">Swish: 123 190 01 82</p>
+            <p class="bankgiro">Bankgiro: 5529-6065</p>
+          </div>
+        </div>
       </div>
 
-      <div class="general-info">
-        <div class="location">
-          <h3>PLATS</h3>
-          <p class="place"><?php echo $content['place']; ?></p>
-          <p class="adress"><?php echo $content['adress']; ?></p>
-        </div>
-        <div class="payment">
-          <h3>BETALNING</h3>
-          <p class="swish">Swish: 123 190 01 82</p>
-          <p class="bankgiro">Bankgiro: 5529-6065</p>
-        </div>
-      </div>
-    </div>
-
-<?php endwhile; ?>
+  <?php endwhile; ?>
 </div>
 
 <!-- Restor global post data -->

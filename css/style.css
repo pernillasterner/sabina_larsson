@@ -244,3 +244,15 @@ nav.main-navigation {
         background-color: #000; }
         .site-workshop-content .content-container .general-info .payment h3, .site-workshop-content .content-container .general-info .payment p {
           color: #fff; }
+
+.position-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row; }
+  .position-container .position-image {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px; }
