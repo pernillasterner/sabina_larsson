@@ -18,6 +18,10 @@
     get_template_part( '/template-parts/position' );
 
 
+    /**______POSITION SECTION______**/
+    get_template_part( '/template-parts/workshop' );
+
+
   ?>
     
   <?php endwhile;?>

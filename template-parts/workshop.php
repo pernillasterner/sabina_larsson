@@ -12,12 +12,20 @@ $args = array(
   'posts_per_page' => 1
 );
 $workshops = new WP_Query($args);
+
+$args = array(
+  'post_type' => 'course',
+  'post_status' => 'publish',
+  'posts_per_page' => 1
+);
+$courses = new WP_Query($args);
 ?>
 
 <!-- Display Post Type Workshop -->
-<div id="<?php echo ($workshops ? 'workshop' : '__AD__ID__NAME__' ); ?>" class="site-workshop-content"> 
-  <?php while( $workshops->have_posts() ) : $workshops->the_post(); ?>
-    
+<div id="<?php echo ($workshops ? 'workshop' : 'course' ); ?>" class="site-workshop-content"> 
+  <?php ($workskops) ? $action = $workshops : $actions = $courses; ?>
+  <?php while( $actions->have_posts() ) : $actions->the_post(); ?>
+  
     <?php 
     $image50 = get_field('image_50');
     $content = get_field('content_1');
