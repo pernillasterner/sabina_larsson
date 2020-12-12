@@ -1,23 +1,23 @@
 <?php
 /**
- * Template for Workshop
- * Setup query to show the 'workshops' post type and 
+ * Template for Courses
+ * Setup query to show the 'courses' post type and 
  * output the content.
  */
 
 
 $args = array(
-  'post_type' => 'workshop',
+  'post_type' => 'course',
   'post_status' => 'publish',
   'posts_per_page' => 1
 );
-$workshops = new WP_Query($args); ?>
-
+$courses = new WP_Query($args);
+?>
 
 <!-- Display Post Type Workshop -->
-<div id="<?php echo 'workshop'; ?>" class="site-workshop-content"> 
+<div id="<?php echo 'course'; ?>" class="site-workshop-content"> 
 
-  <?php while( $workshops->have_posts() ) : $workshops->the_post(); ?>
+  <?php while( $courses->have_posts() ) : $courses->the_post(); ?>
   
     <?php 
     $image50 = get_field('image_50');

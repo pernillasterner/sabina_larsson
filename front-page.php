@@ -18,7 +18,7 @@
 
 
     /**______WORKSHOP SECTION______**/
-    get_template_part( '/template-parts/workshop' );
+    get_template_part( '/template-parts/course' );
 
 
     /**______REVIEWS SECTION______**/
