@@ -36,8 +36,8 @@ $courses = new WP_Query($args);
 
           <?php
           // Loop through all custom fields
-            for ($i = 1; $i <= 2; $i++) {
-            
+            for ($i = 1; $i < 2; $i++) {
+              
               $content = get_field('content_' . $i); ?>
             
               <div class="info-container">
@@ -50,8 +50,7 @@ $courses = new WP_Query($args);
                 <h6 class="price">Pris: <?php  echo $content['price']; ?>kr</h6>
               </div>
             <?php } ?>
-        
-
+  
           <div class="notification"><strong>Anmälan via mejl </strong><a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a></div>
         
         </div>
