@@ -351,3 +351,53 @@ nav.main-navigation {
     }
   }
 }
+
+// Section PT Yoga
+.pt_yoga_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .heading {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+    .content {
+      width: 50%;
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+  }
+  .notification {
+    text-align: center;
+    margin-bottom: 10px;
+    a {
+      text-transform: inherit;
+    }
+  }
+  .classes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.8px solid $darkGrey;
+    font-size: 1.2rem;
+    .pt_one, .pt_duo, .pt_online {
+      width: 33%;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      padding: 2rem 9rem 2rem 1rem;
+    }
+    .pt_duo {
+      border-right: 0.8px solid $darkGrey;
+      border-left: 0.8px solid $darkGrey;
+    }
+  }
+}

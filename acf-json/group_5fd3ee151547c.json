@@ -1,11 +1,11 @@
 {
     "key": "group_5fd3ee151547c",
-    "title": "Personlig Yoga",
+    "title": "PT Yoga",
     "fields": [
         {
             "key": "field_5fd3ee1ffcc18",
-            "label": "Title",
-            "name": "title",
+            "label": "Heading",
+            "name": "heading",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -55,6 +55,25 @@
             },
             "layout": "block",
             "sub_fields": [
+                {
+                    "key": "field_5fd76b7090b17",
+                    "label": "PT One Title",
+                    "name": "pt_one_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
                 {
                     "key": "field_5fd3eea8fcc1b",
                     "label": "One time",
@@ -113,6 +132,192 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_5fd4f512ca888",
+            "label": "Class PT Duo Yoga",
+            "name": "class_pt_duo_yoga",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fd76c9d2e027",
+                    "label": "PT Duo Title",
+                    "name": "pt_duo_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f583ca889",
+                    "label": "One time",
+                    "name": "one_time",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f660ca88a",
+                    "label": "Five times",
+                    "name": "five_times",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f666ca88b",
+                    "label": "Ten times",
+                    "name": "ten_times",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fd4f6873620c",
+            "label": "Class PT Online Yoga",
+            "name": "class_pt_online_yoga",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fd76cc12e028",
+                    "label": "PT Online Title",
+                    "name": "pt_online_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f69f3620d",
+                    "label": "One time",
+                    "name": "one_time",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f6a53620e",
+                    "label": "Five times",
+                    "name": "five_times",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5fd4f6b33620f",
+                    "label": "Ten times",
+                    "name": "ten_times",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
         }
     ],
     "location": [
@@ -132,5 +337,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1607724830
+    "modified": 1607953624
 }

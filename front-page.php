@@ -25,6 +25,13 @@
     get_template_part( '/template-parts/review' );
 
 
+    /**______PT YOGA SECTION______**/
+    get_template_part( '/template-parts/pt-yoga' );
+
+
+
+
+
   ?>
     
   <?php endwhile;?>
