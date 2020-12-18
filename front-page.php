@@ -11,8 +11,8 @@
 
     /**______WORKSHOP SECTION______**/
     get_template_part( '/template-parts/workshop' );
-
-
+    
+    
     /**______POSITION SECTION______**/
     get_template_part( '/template-parts/position' );
 
@@ -33,6 +33,9 @@
     get_template_part( '/template-parts/class' );
 
 
+    /**______INSPIRATION SECTION______**/
+    get_template_part( '/template-parts/inspiration' );
+    
 
   ?>
     
