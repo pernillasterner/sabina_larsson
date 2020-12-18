@@ -1,9 +1,33 @@
 {
-    "key": "group_5fd3ee151547c",
-    "title": "PT Yoga",
+    "key": "group_5fd77c19538d7",
+    "title": "Classes",
     "fields": [
         {
-            "key": "field_5fd3ee1ffcc18",
+            "key": "field_5fd77ed731149",
+            "label": "Image 50",
+            "name": "image_50",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium_large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5fd77c20d9d22",
             "label": "Heading",
             "name": "heading",
             "type": "text",
@@ -22,10 +46,10 @@
             "maxlength": ""
         },
         {
-            "key": "field_5fd3ee33fcc19",
-            "label": "Content",
-            "name": "content",
-            "type": "textarea",
+            "key": "field_5fd77c3dd9d23",
+            "label": "Sub Heading",
+            "name": "sub_heading",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -36,14 +60,14 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
-            "key": "field_5fd3ee53fcc1a",
-            "label": "Class PT Yoga",
-            "name": "class_pt_yoga",
+            "key": "field_5fd77c4ad9d24",
+            "label": "Drottningtorget",
+            "name": "drottningtorget",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -56,9 +80,9 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5fd76b7090b17",
-                    "label": "PT One Title",
-                    "name": "pt_one_title",
+                    "key": "field_5fd77f33b849c",
+                    "label": "Title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -75,9 +99,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd3eea8fcc1b",
-                    "label": "One time",
-                    "name": "one_time",
+                    "key": "field_5fd77c63d9d25",
+                    "label": "General info 1",
+                    "name": "general_info_1",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -94,9 +118,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd3eee1fcc1c",
-                    "label": "Five times",
-                    "name": "five_times",
+                    "key": "field_5fd77c9ad9d26",
+                    "label": "General info 2",
+                    "name": "general_info_2",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -113,9 +137,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd3eef2fcc1d",
-                    "label": "Ten times",
-                    "name": "ten_times",
+                    "key": "field_5fd77ca8d9d27",
+                    "label": "General info 3",
+                    "name": "general_info_3",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -134,9 +158,9 @@
             ]
         },
         {
-            "key": "field_5fd4f512ca888",
-            "label": "Class PT Duo Yoga",
-            "name": "class_pt_duo_yoga",
+            "key": "field_5fd77cc7d9d28",
+            "label": "Älvstrand",
+            "name": "alvstrand",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -149,9 +173,9 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5fd76c9d2e027",
-                    "label": "PT Duo Title",
-                    "name": "pt_duo_title",
+                    "key": "field_5fd77f46b849d",
+                    "label": "Title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -168,9 +192,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f583ca889",
-                    "label": "One time",
-                    "name": "one_time",
+                    "key": "field_5fd77cdcd9d29",
+                    "label": "General info 1",
+                    "name": "general_info_1",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -187,9 +211,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f660ca88a",
-                    "label": "Five times",
-                    "name": "five_times",
+                    "key": "field_5fd77ce8d9d2a",
+                    "label": "General info 2",
+                    "name": "general_info_2",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -206,9 +230,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f666ca88b",
-                    "label": "Ten times",
-                    "name": "ten_times",
+                    "key": "field_5fd77cf2d9d2b",
+                    "label": "General info 3",
+                    "name": "general_info_3",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -227,9 +251,9 @@
             ]
         },
         {
-            "key": "field_5fd4f6873620c",
-            "label": "Class PT Online Yoga",
-            "name": "class_pt_online_yoga",
+            "key": "field_5fd77d03d9d2c",
+            "label": "Haga",
+            "name": "haga",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -242,9 +266,9 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5fd76cc12e028",
-                    "label": "PT Online Title",
-                    "name": "pt_online_title",
+                    "key": "field_5fd77f5eb849e",
+                    "label": "Title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -261,9 +285,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f69f3620d",
-                    "label": "One time",
-                    "name": "one_time",
+                    "key": "field_5fd77d13d9d2d",
+                    "label": "General info 1",
+                    "name": "general_info_1",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -280,9 +304,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f6a53620e",
-                    "label": "Five times",
-                    "name": "five_times",
+                    "key": "field_5fd77d20d9d2e",
+                    "label": "General info 2",
+                    "name": "general_info_2",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -299,9 +323,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fd4f6b33620f",
-                    "label": "Ten times",
-                    "name": "ten_times",
+                    "key": "field_5fd77d2ad9d2f",
+                    "label": "General info 3",
+                    "name": "general_info_3",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -325,7 +349,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "pt_yoga"
+                "value": "class"
             }
         ]
     ],
@@ -337,5 +361,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1607957901
+    "modified": 1608287304
 }

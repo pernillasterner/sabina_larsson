@@ -226,7 +226,6 @@ nav.main-navigation {
 
 
 // Image/Content 50/50
-
 .site-workshop-content {
   display: flex;
   margin: 30px 0;
@@ -399,5 +398,15 @@ nav.main-navigation {
       border-right: 0.8px solid $darkGrey;
       border-left: 0.8px solid $darkGrey;
     }
+  }
+}
+
+// Section: Classes
+.container-class {
+  margin: 0.8rem;
+  text-align: center;
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
   }
 }

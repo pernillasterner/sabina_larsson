@@ -29,6 +29,8 @@
     get_template_part( '/template-parts/pt-yoga' );
 
 
+    /**______CLASSES SECTION______**/
+    get_template_part( '/template-parts/class' );
 
 
 
