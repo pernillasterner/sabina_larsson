@@ -35,6 +35,10 @@
 
     /**______INSPIRATION SECTION______**/
     get_template_part( '/template-parts/inspiration' );
+
+
+    /**______CLASSES SECTION______**/
+    get_template_part( '/template-parts/workshop-haga' );
     
 
   ?>

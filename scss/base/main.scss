@@ -410,3 +410,26 @@ nav.main-navigation {
     margin-bottom: 15px;
   }
 }
+
+
+// Section: Workshop Haga
+.workshop-haga {
+  font-size: 0.8rem;
+  .info {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .date {
+    margin: 0.4rem;
+  }
+  .haga-workshop-btn {
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: $black;
+    border: none;
+    a {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+}
