@@ -39,6 +39,10 @@
 
     /**______CLASSES SECTION______**/
     get_template_part( '/template-parts/workshop-haga' );
+
+
+    /**______ABOUT SABINA SECTION______**/
+    get_template_part( '/template-parts/about-sabina' );
     
 
   ?>
