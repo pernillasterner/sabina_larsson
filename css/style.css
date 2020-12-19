@@ -333,3 +333,50 @@ nav.main-navigation {
     .workshop-haga .haga-workshop-btn a {
       color: #fff;
       font-weight: 600; }
+
+.about-sabina-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3rem; }
+  .about-sabina-container .image-container {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: #b1b1b1; }
+    .about-sabina-container .image-container .title {
+      position: absolute;
+      font-size: 4rem;
+      z-index: 50;
+      width: 40%;
+      top: 5rem;
+      left: 20rem; }
+    .about-sabina-container .image-container .about-sabina-image {
+      height: 650px;
+      width: 550px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 10px;
+      position: absolute;
+      right: 10rem;
+      top: 2rem;
+      border: 20px solid #fff; }
+      .about-sabina-container .image-container .about-sabina-image .image-opacity {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5; }
+  .about-sabina-container .content-container {
+    margin: 10rem 10rem 5rem;
+    padding: 2rem; }
+    .about-sabina-container .content-container h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem; }
+    .about-sabina-container .content-container p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1.7; }
+    .about-sabina-container .content-container .signiture {
+      margin-top: 2rem;
+      font-weight: bold; }
