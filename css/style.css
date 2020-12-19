@@ -261,7 +261,6 @@ nav.main-navigation {
   display: flex; }
   .review-container .review {
     margin: 10px;
-    height: 150px;
     display: flex;
     align-items: center;
     flex-direction: column;
