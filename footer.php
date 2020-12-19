@@ -1,3 +1,7 @@
+<div class="awards">
+    <img src="<?php echo wp_get_attachment_image_url(305); ?>">
+    <img src="<?php echo wp_get_attachment_image_url(306); ?>">
+  </div>
   <footer class="site-footer">
     <div class="container">
       <div class="site-footer__info group">
@@ -25,7 +29,7 @@
       </div>
       <div class="site-footer__copyrights">
         <p class="copyrights">© 2020 Sabina Larsson. All rights reserved</p>
-        <p class="made-by">by Pernilla Sterner</p>
+        <!-- <p class="made-by">by Pernilla Sterner</p> -->
       </div>
     </div>
   </footer>

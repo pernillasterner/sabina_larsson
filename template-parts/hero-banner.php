@@ -3,7 +3,7 @@
  * Hero Banner Background Image
  */
 ?>
-<div class="site-hero-content"> 
+<div class="site-hero-content">
   <?php 
   $heroBannerImage = get_field('hero_banner_image');
   if( !empty($heroBannerImage) ) : ?>
