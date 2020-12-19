@@ -5,7 +5,7 @@
 ?>
 
 
-<div class="about-sabina-container">
+<div id="about-sabina" class="about-sabina-container">
 
   <div class="image-container">
     <h2 class="title"><?php echo get_field('quote'); ?></h2>

@@ -15,7 +15,7 @@ $classes = new WP_Query($args); ?>
 
 
 <!-- Display Post Type Workshop -->
-<div id="<?php echo 'classes'; ?>" class="site-workshop-content"> 
+<div id="classes" class="site-workshop-content"> 
 
   <?php while( $classes->have_posts() ) : $classes->the_post(); ?>
     <?php 
