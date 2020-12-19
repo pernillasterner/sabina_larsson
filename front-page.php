@@ -45,6 +45,10 @@
     get_template_part( '/template-parts/about-sabina' );
     
 
+    /**______REVIEWS SECTION______**/
+    get_template_part( '/template-parts/review' );
+    
+
   ?>
     
   <?php endwhile;?>

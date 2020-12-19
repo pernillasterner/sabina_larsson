@@ -4,19 +4,22 @@
  */
 ?>
 
-<!-- TODO: GET THE API -->
+<?php
+$args = array(
+  'post_type' => 'review',
+  'post_status' => 'publish',
+  'posts_per_page' => 3,
+  'orderby' => 'rand'
+);
+$reviews = new WP_Query($args); ?>
 
 <div class="review-container">
+  <?php while( $reviews->have_posts() ) : $reviews->the_post(); ?> 
 
-  <?php for($i = 1; $i <= 3; $i++) { ?>
-
-    <div class="review-container">
-      <div class="review box_$i">
-        <p class="comment"><strong>Du är så jävla fantastisk, du och dina pass är min höjdpunkt på hela veckan! Dina pass väcker ett enormt driv i mig, dels i yogan men också som medmänniska! Så tack för att du är du!🌸</strong></p>
-        <p class="comment_by"><strong>Paula</strong></p>
-      </div>
+    <div class="review">
+      <p class="comment"><?php echo get_field('content'); ?></p>
+      <p class="comment_by"><strong><?php echo get_field('from'); ?></strong></p>
     </div>
-
-  <?php } ?>
   
+  <?php endwhile; ?>
 </div>
