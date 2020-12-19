@@ -45,7 +45,7 @@ $workshops_haga = new WP_Query($args); ?>
 
           </div>
 
-          <button class="haga-workshop-btn" type="submit"><a href="https://www.hagabadet.se/kurser/workshop-event/">BOKA</a></button>
+          <button class="haga-workshop-btn" type="submit"><a href="https://www.hagabadet.se/kurser/workshop-event/" target="_blank">BOKA</a></button>
         
         </div>
       </div>
