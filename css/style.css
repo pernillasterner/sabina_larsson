@@ -385,7 +385,7 @@ nav.main-navigation {
         opacity: 0.5; }
   .about-sabina-container .content-container {
     margin: 10rem 10rem 5rem;
-    padding: 2rem; }
+    padding: 3rem; }
     .about-sabina-container .content-container h3 {
       font-size: 2rem;
       margin-bottom: 2rem; }
@@ -500,7 +500,26 @@ nav.main-navigation {
     .workshop-haga .haga-workshop-btn {
       margin: 0.5rem; }
       .workshop-haga .haga-workshop-btn a {
-        font-size: smaller; } }
+        font-size: smaller; }
+  .about-sabina-container .image-container {
+    height: 350px; }
+    .about-sabina-container .image-container .title {
+      font-size: 2rem;
+      left: 2rem;
+      width: 70%; }
+    .about-sabina-container .image-container .about-sabina-image {
+      height: 350px;
+      width: 250px;
+      right: 2rem;
+      top: 3rem; }
+  .about-sabina-container .content-container {
+    margin: 5rem 0 3rem;
+    padding: 0 2.5rem; }
+    .about-sabina-container .content-container h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1.5rem; }
+    .about-sabina-container .content-container p {
+      font-size: 0.7rem; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
