@@ -70,6 +70,7 @@
   }
   .review-container {
     flex-wrap: wrap;
+    .review:first-child, .review:last-child { display: none; }
     .review {
       padding: 1rem;
       p { font-size: 0.6rem; }
@@ -104,6 +105,21 @@
   }
   .position-image:first-child {
     display: none;
+  }
+  .workshop-haga {
+    font-size: 0.6rem;
+    .info {
+      margin: 1rem;
+      padding: 1rem;
+    }
+    .date {
+      margin: 0.2rem;
+      font-size: 0.8rem;
+    }
+    .haga-workshop-btn {
+      margin: 0.5rem;
+      a { font-size: smaller; }
+    }
   }
 }
 

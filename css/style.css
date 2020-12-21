@@ -456,6 +456,8 @@ nav.main-navigation {
       width: 150px; }
   .review-container {
     flex-wrap: wrap; }
+    .review-container .review:first-child, .review-container .review:last-child {
+      display: none; }
     .review-container .review {
       padding: 1rem; }
       .review-container .review p {
@@ -486,7 +488,19 @@ nav.main-navigation {
   .container-class p {
     font-size: 0.6rem; }
   .position-image:first-child {
-    display: none; } }
+    display: none; }
+  .workshop-haga {
+    font-size: 0.6rem; }
+    .workshop-haga .info {
+      margin: 1rem;
+      padding: 1rem; }
+    .workshop-haga .date {
+      margin: 0.2rem;
+      font-size: 0.8rem; }
+    .workshop-haga .haga-workshop-btn {
+      margin: 0.5rem; }
+      .workshop-haga .haga-workshop-btn a {
+        font-size: smaller; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
