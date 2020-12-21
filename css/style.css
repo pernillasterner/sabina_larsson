@@ -112,6 +112,7 @@ nav.main-navigation {
   nav.main-navigation .social-icons ul {
     display: flex; }
   nav.main-navigation .social-icons li {
+    font-size: 15px;
     margin: 0.5rem; }
 
 /* FOOTER CONTACT INFO */
@@ -125,6 +126,7 @@ nav.main-navigation {
       justify-content: space-evenly;
       align-items: center; }
       .container .site-footer__info .main-info .contact-info {
+        margin: 20px;
         text-align: center;
         width: 33%; }
         .container .site-footer__info .main-info .contact-info h3 {
@@ -135,13 +137,16 @@ nav.main-navigation {
           display: flex;
           justify-content: center; }
           .container .site-footer__info .main-info .contact-info .social-icons li {
+            font-size: 20px;
             margin: 0 0.5rem; }
       .container .site-footer__info .main-info .logo-sabina-larsson {
+        display: none;
         width: 33%; }
         .container .site-footer__info .main-info .logo-sabina-larsson img {
           height: 150px;
           width: 150px; }
       .container .site-footer__info .main-info .newsletter {
+        display: none;
         width: 33%; }
         .container .site-footer__info .main-info .newsletter form {
           display: flex;
@@ -168,6 +173,13 @@ nav.main-navigation {
       position: absolute;
       right: 0;
       margin-right: 30px; }
+
+.awards {
+  display: flex;
+  justify-content: center; }
+  .awards img {
+    margin: 2rem 1rem;
+    width: 5%; }
 
 /* MAIN CONTENT */
 .site-hero-content {
@@ -519,7 +531,18 @@ nav.main-navigation {
       font-size: 1.4rem;
       margin-bottom: 1.5rem; }
     .about-sabina-container .content-container p {
-      font-size: 0.7rem; } }
+      font-size: 0.7rem; }
+  .main-info {
+    margin: 1rem; }
+    .main-info .logo-sabina-larsson {
+      display: none; }
+    .main-info .newsletter {
+      display: none; }
+  .awards img {
+    width: 15%;
+    margin: 2rem 0.5rem; }
+  .site-footer__copyrights p {
+    font-size: 0.6rem; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
@@ -532,13 +555,13 @@ nav.main-navigation {
       background-color: #000;
       margin: 2px 0; }
   nav.main-navigation {
-    padding: 0 5px; }
+    padding: 0 2rem; }
     nav.main-navigation .main-menu .menu-header-menu-left-container, nav.main-navigation .main-menu .menu-header-menu-right-container {
       width: 100%;
       position: absolute;
       right: 0;
       background-color: white;
-      opacity: 0.6;
+      opacity: 0.8;
       transition-timing-function: ease-in;
       display: none; }
     nav.main-navigation .main-menu .menu-header-menu-left-container {
@@ -556,7 +579,7 @@ nav.main-navigation {
       position: absolute;
       right: 0;
       background-color: white;
-      opacity: 0.6;
+      opacity: 0.8;
       top: 183px;
       display: none; }
       nav.main-navigation .social-icons ul {

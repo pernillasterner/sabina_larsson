@@ -146,6 +146,21 @@
       p { font-size: 0.7rem; }
     }
   }
+  .main-info {
+    margin: 1rem;
+    .logo-sabina-larsson {
+      display: none;
+    }
+    .newsletter {
+      display: none;
+    }
+  }
+  .awards {
+    img { width: 15%; margin: 2rem 0.5rem; }
+  }
+  .site-footer__copyrights {
+    p { font-size: 0.6rem; }
+  }
 }
 
 @media screen and (max-width: 1020px) {
@@ -161,14 +176,14 @@
     }
   }
   nav.main-navigation {
-    padding: 0 5px;
+    padding: 0 2rem;
     .main-menu {
       .menu-header-menu-left-container, .menu-header-menu-right-container {
         width: 100%;
         position: absolute;
         right: 0;
         background-color: white;
-        opacity: 0.6;
+        opacity: 0.8;
         transition-timing-function: ease-in;
         display: none;
       }
@@ -193,7 +208,7 @@
       position: absolute;
       right: 0;
       background-color: white;
-      opacity: 0.6;
+      opacity: 0.8;
       top: 183px;
       display: none;
       ul {
