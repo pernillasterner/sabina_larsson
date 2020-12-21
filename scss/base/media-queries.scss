@@ -68,9 +68,42 @@
       width: 150px;
     }
   }
-  .review-container .review {
-    padding: 1rem;
+  .review-container {
+    flex-wrap: wrap;
+    .review {
+      padding: 1rem;
+      p { font-size: 0.6rem; }
+    }
+  }
+  .pt_yoga_container {
+    .info {
+      .heading { font-size: 1.4rem; }
+      .content { font-size: 0.6rem; width: 100%; }
+    }
+    .notification {
+      position: initial; 
+      font-size: 0.6rem;
+      margin-top: 10px;
+    }
+    .classes {
+      flex-direction: column;
+      border: 0.8px solid $darkGrey;
+      .pt_one, .pt_duo, .pt_online { 
+        width: 100%;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        border: none;
+      }
+      h3 { font-size: 1rem; }
+      p { font-size: 0.6rem; }
+    }
+  }
+  .container-class {
+    h2 { font-size: 1rem; }
     p { font-size: 0.6rem; }
+  }
+  .position-image:first-child {
+    display: none;
   }
 }
 
