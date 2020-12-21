@@ -1,0 +1,302 @@
+/* MAIN CONTENT */
+// Section: Hero Banner
+.site-hero-content {
+  position: relative;
+
+  .hero-image {
+    margin-top: 50px;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-content {
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    bottom: 10rem;
+    padding: 2rem 5rem 2rem 1.5rem;
+    h2.hero-title {
+      color: $white;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+    p.hero-text {
+      color: $white;
+      font-size: 1.5rem
+    }
+  }
+}
+
+// Section: Image/Content 50/50
+.site-workshop-content {
+  display: flex;
+  margin: 30px 0;
+  .image-container {
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .content-container {
+    position: relative;
+    width: 50%;
+    background-color: $lightGrey;
+    display: flex;
+    .content-inner-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      h2, h3, h4, h6, p {
+        color: $softGrey;
+      }
+      .title-container {
+        position: absolute;
+        top: 70px;
+        left: 10%;
+        h2 {
+          text-transform: uppercase;
+          font-size: 3rem;
+        }
+      }
+      .info-container {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10px;
+        h3.heading {
+          font-size: 1.7rem;
+        }
+        h4.sub-heading {
+          font-size: 1.2rem;
+        }
+        .textarea {
+          margin: 20px 0;
+        }
+        h6.price {
+          font-size: 0.8rem;
+        }
+      }
+      .notification {
+        position: absolute;
+        bottom: 110px;
+        text-align: center;
+        a { text-transform: lowercase; }
+      }
+      
+    }
+    .general-info {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      margin-top: 10px;
+      .location, .payment {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .location {
+        background-color: $white;
+        h3, p {
+          color: $softGrey;
+        }
+      }
+      .payment {
+        background-color: $black;
+        h3, p {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// Section Position
+.position-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  .position-image {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+  }
+}
+
+// Section Review
+.review-container {
+  display: flex;
+  .review {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: $beige;
+    p {
+      font-size: 0.8rem;
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+// Section PT Yoga
+.pt_yoga_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .heading {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+    .content {
+      width: 50%;
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+  }
+  .notification {
+    text-align: center;
+    margin-bottom: 10px;
+    a {
+      text-transform: inherit;
+    }
+  }
+  .classes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.8px solid $darkGrey;
+    font-size: 1.2rem;
+    .pt_one, .pt_duo, .pt_online {
+      width: 33%;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      padding: 2rem 9rem 2rem 1rem;
+    }
+    .pt_duo {
+      border-right: 0.8px solid $darkGrey;
+      border-left: 0.8px solid $darkGrey;
+    }
+  }
+}
+
+// Section: Classes
+.container-class {
+  margin: 0.8rem;
+  text-align: center;
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+  }
+}
+
+// Section: Workshop Haga
+.workshop-haga {
+  font-size: 0.8rem;
+  .info {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .date {
+    margin: 0.4rem;
+  }
+  .haga-workshop-btn {
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: $black;
+    border: none;
+    a {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+}
+
+// Section: About Sabina
+.about-sabina-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3rem;
+  .image-container {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: $darkGrey;
+    .title {
+      position: absolute;
+      font-size: 4rem;
+      z-index: 50;
+      width: 40%;
+      top: 5rem;
+      left: 20rem;
+    }
+    .about-sabina-image {
+      height: 650px;
+      width: 550px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 10px;
+      position: absolute;
+      right: 10rem;
+      top: 2rem;
+      border: 20px solid $white;
+      .image-opacity {
+        background-color: $white;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+      }
+    }
+  }
+  .content-container {
+    margin: 10rem 10rem 5rem;
+    padding: 2rem;
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .signiture {
+      margin-top: 2rem;
+      font-weight: bold;
+    }
+  }
+}
+
+// Section: Awards
+.awards {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 2rem 1rem;
+    width: 5%;
+  }
+}

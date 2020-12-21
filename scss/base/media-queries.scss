@@ -1,0 +1,112 @@
+// MEDIA QUERIES 
+@media screen and (max-width: 420px) {
+  .site-hero-content {
+    .hero-image {
+      height: 400px;
+    }
+    .hero-content {
+      bottom: 2rem;
+      padding: 1rem 4rem 1rem 0.5rem;
+      h2.hero-title {
+        font-size: 1.5rem;
+      }
+      p.hero-text {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .site-workshop-content {
+    .image-container {
+      display: none;
+    }
+    .content-container {
+      width: 100%;
+      display: initial;
+      .content-inner-container {
+        .title-container {
+          position: initial;
+          margin-left: -100px;
+          margin-bottom: 20px;
+          h2 { font-size: 2rem; }
+        }
+        .info-container {
+          h3.heading {
+            font-size: 1.0rem;
+          }
+          h4.sub-heading {
+            font-size: 0.8rem;
+          }
+          .textarea {
+            margin: 20px 0;
+          }
+          h6.price {
+            font-size: 0.6rem;
+          }
+        }
+        .notification { position: initial; font-size: 0.6rem;}
+      }
+      .general-info { 
+        position: initial; 
+        height: 70px;
+        h3 { font-size: 0.7rem; }
+        p { font-size: 0.6rem; }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    div {
+      width: 35px;
+      height: 2px;
+      background-color: $black;
+      margin: 2px 0;
+    }
+  }
+  nav.main-navigation {
+    padding: 0 5px;
+    .main-menu {
+      .menu-header-menu-left-container, .menu-header-menu-right-container {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        background-color: white;
+        opacity: 0.6;
+        transition-timing-function: ease-in;
+        display: none;
+      }
+      .menu-header-menu-left-container {
+        top: 50px;
+        ul.header-menu-left {
+          display: initial;
+        }
+      }
+      .headline-sabina-larsson {
+        font-size: 0.7rem;
+      }
+      .menu-header-menu-right-container {
+        top: 218px;
+        ul.header-menu-right {
+          display: initial;
+        }
+      }
+    }
+    .social-icons {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      background-color: white;
+      opacity: 0.6;
+      top: 183px;
+      display: none;
+      ul {
+        justify-content: center;
+      }
+    }
+  }
+}

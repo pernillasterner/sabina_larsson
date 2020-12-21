@@ -169,6 +169,7 @@ nav.main-navigation {
       right: 0;
       margin-right: 30px; }
 
+/* MAIN CONTENT */
 .site-hero-content {
   position: relative; }
   .site-hero-content .hero-image {
@@ -413,7 +414,36 @@ nav.main-navigation {
     .site-hero-content .hero-content h2.hero-title {
       font-size: 1.5rem; }
     .site-hero-content .hero-content p.hero-text {
-      font-size: 0.8rem; } }
+      font-size: 0.8rem; }
+  .site-workshop-content .image-container {
+    display: none; }
+  .site-workshop-content .content-container {
+    width: 100%;
+    display: initial; }
+    .site-workshop-content .content-container .content-inner-container .title-container {
+      position: initial;
+      margin-left: -100px;
+      margin-bottom: 20px; }
+      .site-workshop-content .content-container .content-inner-container .title-container h2 {
+        font-size: 2rem; }
+    .site-workshop-content .content-container .content-inner-container .info-container h3.heading {
+      font-size: 1.0rem; }
+    .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading {
+      font-size: 0.8rem; }
+    .site-workshop-content .content-container .content-inner-container .info-container .textarea {
+      margin: 20px 0; }
+    .site-workshop-content .content-container .content-inner-container .info-container h6.price {
+      font-size: 0.6rem; }
+    .site-workshop-content .content-container .content-inner-container .notification {
+      position: initial;
+      font-size: 0.6rem; }
+    .site-workshop-content .content-container .general-info {
+      position: initial;
+      height: 70px; }
+      .site-workshop-content .content-container .general-info h3 {
+        font-size: 0.7rem; }
+      .site-workshop-content .content-container .general-info p {
+        font-size: 0.6rem; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
