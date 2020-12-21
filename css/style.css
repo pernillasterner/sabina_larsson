@@ -276,8 +276,7 @@ nav.main-navigation {
     margin: 10px; }
 
 .review-container {
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
   .review-container .review {
     margin: 10px;
     display: flex;
@@ -315,7 +314,6 @@ nav.main-navigation {
   .pt_yoga_container .classes {
     display: flex;
     width: 100%;
-    flex-direction: row;
     justify-content: space-between;
     border-top: 0.8px solid #b1b1b1;
     font-size: 1.2rem; }
@@ -456,9 +454,32 @@ nav.main-navigation {
     .position-container .position-image {
       height: 150px;
       width: 150px; }
-  .review-container .review {
-    padding: 1rem; }
-    .review-container .review p {
+  .review-container {
+    flex-wrap: wrap; }
+    .review-container .review {
+      padding: 1rem; }
+      .review-container .review p {
+        font-size: 0.6rem; }
+  .pt_yoga_container .info .heading {
+    font-size: 1.4rem; }
+  .pt_yoga_container .info .content {
+    font-size: 0.6rem;
+    width: 100%; }
+  .pt_yoga_container .notification {
+    position: initial;
+    font-size: 0.6rem;
+    margin-top: 10px; }
+  .pt_yoga_container .classes {
+    flex-direction: column;
+    border: 0.8px solid #b1b1b1; }
+    .pt_yoga_container .classes .pt_one, .pt_yoga_container .classes .pt_duo, .pt_yoga_container .classes .pt_online {
+      width: 100%;
+      align-items: center;
+      padding: 1rem 2rem 1rem 2rem;
+      border: none; }
+    .pt_yoga_container .classes h3 {
+      font-size: 1rem; }
+    .pt_yoga_container .classes p {
       font-size: 0.6rem; } }
 
 @media screen and (max-width: 1020px) {
