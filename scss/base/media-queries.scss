@@ -98,6 +98,13 @@
       p { font-size: 0.6rem; }
     }
   }
+  .container-class {
+    h2 { font-size: 1rem; }
+    p { font-size: 0.6rem; }
+  }
+  .position-image:first-child {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1020px) {
