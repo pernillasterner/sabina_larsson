@@ -13,8 +13,6 @@ $args = array(
 );
 $classes = new WP_Query($args); ?>
 
-
-<!-- Display Post Type Workshop -->
 <div id="classes" class="site-workshop-content"> 
 
   <?php while( $classes->have_posts() ) : $classes->the_post(); ?>
@@ -47,14 +45,11 @@ $classes = new WP_Query($args); ?>
               <?php endfor; ?>
             </div>
           <?php endforeach; ?>
-          
-          <!-- TODO: ADD BUTTON -->
-        
+       
         </div>
       </div>
 
   <?php endwhile; ?>
 </div>
 
-<!-- Restor global post data -->
 <?php wp_reset_postdata(); ?>

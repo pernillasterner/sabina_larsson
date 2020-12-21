@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 <header class="site-header">
   <div class="container">
-    <!-- Top Navigation Menu -->
+   
     <div class="site-header__menu group">
       <nav class="main-navigation">
         <div class="logo-sabina-larsson">
@@ -33,7 +33,6 @@
             <li><a href="https://www.facebook.com/SabinaLarssonYoga/" target="_blank"><i class="fab fa-facebook"></i></i></a></li>
           </ul>
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <div class="hamburger">
           <div></div>
           <div></div>

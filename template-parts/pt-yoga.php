@@ -54,5 +54,4 @@ $pt_yoga = new WP_Query($args);
   <?php endwhile; ?>
 </div>
 
-<!-- Restor global post data -->
 <?php wp_reset_postdata(); ?>

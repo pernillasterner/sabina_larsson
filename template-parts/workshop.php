@@ -13,8 +13,6 @@ $args = array(
 );
 $workshops = new WP_Query($args); ?>
 
-
-<!-- Display Post Type Workshop -->
 <div id="<?php echo 'workshop'; ?>" class="site-workshop-content"> 
 
   <?php while( $workshops->have_posts() ) : $workshops->the_post(); ?>
@@ -73,5 +71,4 @@ $workshops = new WP_Query($args); ?>
   <?php endwhile; ?>
 </div>
 
-<!-- Restor global post data -->
 <?php wp_reset_postdata(); ?>

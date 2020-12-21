@@ -14,7 +14,6 @@ $args = array(
 $courses = new WP_Query($args);
 ?>
 
-<!-- Display Post Type Workshop -->
 <div id="courses" class="site-workshop-content"> 
 
   <?php while( $courses->have_posts() ) : $courses->the_post(); ?>
@@ -72,5 +71,4 @@ $courses = new WP_Query($args);
   <?php endwhile; ?>
 </div>
 
-<!-- Restor global post data -->
 <?php wp_reset_postdata(); ?>
