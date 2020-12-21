@@ -404,6 +404,17 @@ nav.main-navigation {
     margin: 2rem 1rem;
     width: 5%; }
 
+@media screen and (max-width: 420px) {
+  .site-hero-content .hero-image {
+    height: 400px; }
+  .site-hero-content .hero-content {
+    bottom: 2rem;
+    padding: 1rem 4rem 1rem 0.5rem; }
+    .site-hero-content .hero-content h2.hero-title {
+      font-size: 1.5rem; }
+    .site-hero-content .hero-content p.hero-text {
+      font-size: 0.8rem; } }
+
 @media screen and (max-width: 1020px) {
   .hamburger {
     display: flex;

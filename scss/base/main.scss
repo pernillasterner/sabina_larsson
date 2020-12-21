@@ -524,6 +524,24 @@ nav.main-navigation {
 
 
 // MEDIA QUERIES 
+@media screen and (max-width: 420px) {
+  .site-hero-content {
+    .hero-image {
+      height: 400px;
+    }
+    .hero-content {
+      bottom: 2rem;
+      padding: 1rem 4rem 1rem 0.5rem;
+      h2.hero-title {
+        font-size: 1.5rem;
+      }
+      p.hero-text {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .hamburger {
     display: flex;
