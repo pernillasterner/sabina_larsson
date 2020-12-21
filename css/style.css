@@ -276,7 +276,8 @@ nav.main-navigation {
     margin: 10px; }
 
 .review-container {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   .review-container .review {
     margin: 10px;
     display: flex;
@@ -404,6 +405,61 @@ nav.main-navigation {
   .awards img {
     margin: 2rem 1rem;
     width: 5%; }
+
+@media screen and (max-width: 420px) {
+  .site-hero-content .hero-image {
+    height: 400px; }
+  .site-hero-content .hero-content {
+    bottom: 2rem;
+    padding: 1rem 4rem 1rem 0.5rem; }
+    .site-hero-content .hero-content h2.hero-title {
+      font-size: 1.5rem; }
+    .site-hero-content .hero-content p.hero-text {
+      font-size: 0.8rem; }
+  .site-workshop-content .image-container {
+    display: none; }
+  .site-workshop-content .content-container {
+    width: 100%;
+    display: initial; }
+    .site-workshop-content .content-container .content-inner-container .title-container {
+      position: initial;
+      margin-left: -80px;
+      margin-bottom: 20px; }
+      .site-workshop-content .content-container .content-inner-container .title-container h2 {
+        font-size: 1.4rem; }
+      .site-workshop-content .content-container .content-inner-container .title-container p {
+        font-size: 0.6rem; }
+    .site-workshop-content .content-container .content-inner-container .info-container {
+      margin-bottom: 20px; }
+      .site-workshop-content .content-container .content-inner-container .info-container h3.heading {
+        font-size: 1.0rem; }
+      .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading {
+        font-size: 0.8rem; }
+      .site-workshop-content .content-container .content-inner-container .info-container .textarea {
+        font-size: 0.6rem;
+        margin: 20px 0 5px; }
+      .site-workshop-content .content-container .content-inner-container .info-container h6.price {
+        font-size: 0.6rem; }
+    .site-workshop-content .content-container .content-inner-container .notification {
+      position: initial;
+      font-size: 0.6rem;
+      margin-top: 10px; }
+    .site-workshop-content .content-container .general-info {
+      position: initial;
+      height: 60px; }
+      .site-workshop-content .content-container .general-info h3 {
+        font-size: 0.6rem; }
+      .site-workshop-content .content-container .general-info p {
+        font-size: 0.6rem; }
+  .position-container {
+    justify-content: center; }
+    .position-container .position-image {
+      height: 150px;
+      width: 150px; }
+  .review-container .review {
+    padding: 1rem; }
+    .review-container .review p {
+      font-size: 0.6rem; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
