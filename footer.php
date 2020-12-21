@@ -6,7 +6,7 @@
     <div class="container">
       <div class="site-footer__info group">
         <div class="main-info">
-          <div class="contact-info">
+          <div id="contact" class="contact-info">
             <h3>kontakt</h3>
             <a class="mailto" href = "mailto: sabina@kontakt.se">sabina@kontakt.se</a>
             <ul class="social-icons">
