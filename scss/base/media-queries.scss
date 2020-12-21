@@ -26,9 +26,10 @@
       .content-inner-container {
         .title-container {
           position: initial;
-          margin-left: -100px;
+          margin-left: -80px;
           margin-bottom: 20px;
-          h2 { font-size: 2rem; }
+          h2 { font-size: 1.4rem; }
+          p { font-size: 0.6rem; }
         }
         .info-container {
           h3.heading {
@@ -38,7 +39,7 @@
             font-size: 0.8rem;
           }
           .textarea {
-            margin: 20px 0;
+            font-size: 0.6rem;
           }
           h6.price {
             font-size: 0.6rem;
@@ -48,10 +49,17 @@
       }
       .general-info { 
         position: initial; 
-        height: 70px;
-        h3 { font-size: 0.7rem; }
+        height: 60px;
+        h3 { font-size: 0.6rem; }
         p { font-size: 0.6rem; }
       }
+    }
+  }
+  .position-container {
+    justify-content: center;
+    .position-image {
+      height: 300px;
+      width: 300px;
     }
   }
 }

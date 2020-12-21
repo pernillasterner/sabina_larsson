@@ -422,16 +422,18 @@ nav.main-navigation {
     display: initial; }
     .site-workshop-content .content-container .content-inner-container .title-container {
       position: initial;
-      margin-left: -100px;
+      margin-left: -80px;
       margin-bottom: 20px; }
       .site-workshop-content .content-container .content-inner-container .title-container h2 {
-        font-size: 2rem; }
+        font-size: 1.4rem; }
+      .site-workshop-content .content-container .content-inner-container .title-container p {
+        font-size: 0.6rem; }
     .site-workshop-content .content-container .content-inner-container .info-container h3.heading {
       font-size: 1.0rem; }
     .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading {
       font-size: 0.8rem; }
     .site-workshop-content .content-container .content-inner-container .info-container .textarea {
-      margin: 20px 0; }
+      font-size: 0.6rem; }
     .site-workshop-content .content-container .content-inner-container .info-container h6.price {
       font-size: 0.6rem; }
     .site-workshop-content .content-container .content-inner-container .notification {
@@ -439,11 +441,16 @@ nav.main-navigation {
       font-size: 0.6rem; }
     .site-workshop-content .content-container .general-info {
       position: initial;
-      height: 70px; }
+      height: 60px; }
       .site-workshop-content .content-container .general-info h3 {
-        font-size: 0.7rem; }
+        font-size: 0.6rem; }
       .site-workshop-content .content-container .general-info p {
-        font-size: 0.6rem; } }
+        font-size: 0.6rem; }
+  .position-container {
+    justify-content: center; }
+    .position-container .position-image {
+      height: 300px;
+      width: 300px; } }
 
 @media screen and (max-width: 1020px) {
   .hamburger {
