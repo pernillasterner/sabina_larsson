@@ -403,3 +403,44 @@ nav.main-navigation {
   .awards img {
     margin: 2rem 1rem;
     width: 5%; }
+
+@media screen and (max-width: 1020px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; }
+    .hamburger div {
+      width: 35px;
+      height: 2px;
+      background-color: #000;
+      margin: 2px 0; }
+  nav.main-navigation {
+    padding: 0 5px; }
+    nav.main-navigation .main-menu .menu-header-menu-left-container, nav.main-navigation .main-menu .menu-header-menu-right-container {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      background-color: white;
+      opacity: 0.6;
+      transition-timing-function: ease-in;
+      display: none; }
+    nav.main-navigation .main-menu .menu-header-menu-left-container {
+      top: 50px; }
+      nav.main-navigation .main-menu .menu-header-menu-left-container ul.header-menu-left {
+        display: initial; }
+    nav.main-navigation .main-menu .headline-sabina-larsson {
+      font-size: 0.7rem; }
+    nav.main-navigation .main-menu .menu-header-menu-right-container {
+      top: 218px; }
+      nav.main-navigation .main-menu .menu-header-menu-right-container ul.header-menu-right {
+        display: initial; }
+    nav.main-navigation .social-icons {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      background-color: white;
+      opacity: 0.6;
+      top: 183px;
+      display: none; }
+      nav.main-navigation .social-icons ul {
+        justify-content: center; } }
