@@ -130,6 +130,7 @@ nav.main-navigation {
       display: flex;
     }
     li {
+      font-size: 15px;
       margin: 0.5rem;
     }
   }
@@ -148,6 +149,7 @@ nav.main-navigation {
       justify-content: space-evenly;
       align-items: center;
       .contact-info {
+        margin: 20px; // REMOVE WHEN DISPLAYING LOGO AND NEWSLETTER
         text-align: center;
         width: 33%;
         h3 {
@@ -160,11 +162,13 @@ nav.main-navigation {
           display: flex;
           justify-content: center;
           li {
+            font-size: 20px;
             margin: 0 0.5rem;
           }
         }
       }
       .logo-sabina-larsson {
+          display: none;
           width: 33%;
         img {
           height: 150px;
@@ -172,6 +176,7 @@ nav.main-navigation {
         }
       }
       .newsletter {
+          display: none;
           width: 33%;
         form {
           display: flex;
@@ -206,5 +211,15 @@ nav.main-navigation {
       right: 0;
       margin-right: 30px;
     }
+  }
+}
+
+// Section: Awards
+.awards {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 2rem 1rem;
+    width: 5%;
   }
 }
