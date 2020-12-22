@@ -397,7 +397,7 @@ nav.main-navigation {
         opacity: 0.5; }
   .about-sabina-container .content-container {
     margin: 10rem 10rem 5rem;
-    padding: 3rem; }
+    padding: 2rem; }
     .about-sabina-container .content-container h3 {
       font-size: 2rem;
       margin-bottom: 2rem; }
@@ -409,14 +409,7 @@ nav.main-navigation {
       margin-top: 2rem;
       font-weight: bold; }
 
-.awards {
-  display: flex;
-  justify-content: center; }
-  .awards img {
-    margin: 2rem 1rem;
-    width: 5%; }
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 800px) {
   .site-hero-content .hero-image {
     height: 400px; }
   .site-hero-content .hero-content {
