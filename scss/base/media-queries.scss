@@ -16,6 +16,10 @@
     }
   }
 
+  ul.toogle-hamburger {
+    background-color: green;
+  }
+
   .site-workshop-content {
     .image-container {
       display: none;
@@ -23,6 +27,7 @@
     .content-container {
       width: 100%;
       display: initial;
+      padding-top: 30px;
       .content-inner-container {
         .title-container {
           position: initial;

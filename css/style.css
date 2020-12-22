@@ -26,7 +26,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   min-height: 100vh;
-  font-size: 12px; }
+  font-size: 12px;
+  position: relative; }
 
 /**
  * Render the `main` element consistently in IE.
@@ -79,7 +80,8 @@ nav.main-navigation {
   align-items: center;
   position: fixed;
   z-index: 1000;
-  background-color: white; }
+  background-color: white;
+  top: 0; }
   nav.main-navigation .logo-sabina-larsson {
     width: 60px;
     height: 70px;
@@ -216,8 +218,7 @@ nav.main-navigation {
     position: relative;
     width: 50%;
     background-color: #e3e3e3;
-    display: flex;
-    padding-top: 30px; }
+    display: flex; }
     .site-workshop-content .content-container .content-inner-container {
       display: flex;
       flex-direction: column;
@@ -420,11 +421,14 @@ nav.main-navigation {
       font-size: 1.5rem; }
     .site-hero-content .hero-content p.hero-text {
       font-size: 0.8rem; }
+  ul.toogle-hamburger {
+    background-color: green; }
   .site-workshop-content .image-container {
     display: none; }
   .site-workshop-content .content-container {
     width: 100%;
-    display: initial; }
+    display: initial;
+    padding-top: 30px; }
     .site-workshop-content .content-container .content-inner-container .title-container {
       position: initial;
       margin-left: -80px;
