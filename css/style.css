@@ -216,7 +216,8 @@ nav.main-navigation {
     position: relative;
     width: 50%;
     background-color: #e3e3e3;
-    display: flex; }
+    display: flex;
+    padding-top: 30px; }
     .site-workshop-content .content-container .content-inner-container {
       display: flex;
       flex-direction: column;
