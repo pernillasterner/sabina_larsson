@@ -64,7 +64,7 @@
                     "key": "field_5fd1e42681a05",
                     "label": "Date",
                     "name": "date",
-                    "type": "date_picker",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -73,9 +73,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "display_format": "l,F j, Y",
-                    "return_format": "l,j F, Y",
-                    "first_day": 1
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 },
                 {
                     "key": "field_5fd1e43e81a06",
@@ -250,7 +252,7 @@
                     "key": "field_5fd1e4a88f06e",
                     "label": "Date",
                     "name": "date",
-                    "type": "date_picker",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -259,9 +261,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "display_format": "l,F j, Y",
-                    "return_format": "l,j F, Y",
-                    "first_day": 1
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 },
                 {
                     "key": "field_5fd1e4be8f06f",
@@ -423,5 +427,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1607957881
+    "modified": 1609257112
 }

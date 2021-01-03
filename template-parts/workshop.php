@@ -28,8 +28,7 @@ $workshops = new WP_Query($args); ?>
     
           <div class="title-container">
             <h2 class="title"><?php echo $content['title']; ?></h2>
-            <?php $date = explode(',', $content['date']); ?>
-            <p class="date"><?php  echo ucfirst($date[0]) . ', ' . ucfirst($date[1]) . $date[2]; ?></p>
+            <p class="date"><?php  echo $content['date']; ?></p>
           </div>
 
           <?php

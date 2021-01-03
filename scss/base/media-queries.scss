@@ -1,4 +1,4 @@
-// MEDIA QUERIES 
+// MEDIA QUERIES
 @media screen and (max-width: 800px) {
   .site-hero-content {
     .hero-image {
@@ -16,10 +16,6 @@
     }
   }
 
-  ul.toogle-hamburger {
-    background-color: green;
-  }
-
   .site-workshop-content {
     .image-container {
       display: none;
@@ -27,11 +23,11 @@
     .content-container {
       width: 100%;
       display: initial;
-      padding-top: 30px;
+      padding: 30px 0;
       .content-inner-container {
         .title-container {
           position: initial;
-          margin-left: -80px;
+          margin-left: -130px;
           margin-bottom: 20px;
           h2 { font-size: 1.4rem; }
           p { font-size: 0.6rem; }
@@ -63,6 +59,12 @@
         height: 60px;
         h3 { font-size: 0.6rem; }
         p { font-size: 0.6rem; }
+        .payment {
+          background-color: $black;
+          h3, p {
+            color: $white;
+          }
+        }
       }
     }
   }
@@ -167,7 +169,18 @@
     p { font-size: 0.6rem; }
   }
 }
-
+@media screen and (max-width: 568px) {
+  .site-workshop-content {
+    .content-container {
+      .content-inner-container {
+        .title-container {
+          margin-left: -100px;
+          h2 { font-size: 1.2rem; }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 1020px) {
   .hamburger {
     display: flex;
