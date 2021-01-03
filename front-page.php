@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+// Get the new response code
+var_dump(http_response_code());
+
+?>
 
   <?php while(have_posts()) : the_post(); ?>
 
@@ -46,9 +51,13 @@
     
 
     /**______REVIEWS SECTION______**/
-    get_template_part( '/template-parts/review' );
+  //   get_template_part( '/template-parts/review' );
     
-
+  //   curl -X GET "https://graph.facebook.com/oauth/access_token
+  // ?client_id={405943737271305}
+  // &client_secret={your-app-secret}
+  // &grant_type=client_credentials"
+  
   ?>
     
   <?php endwhile;?>
