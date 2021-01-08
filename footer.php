@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="site-footer__copyrights">
-        <p class="copyrights">© 2020 Sabina Larsson. All rights reserved</p>
+        <p class="copyrights">© <?php echo date('Y')?> Sabina Larsson. All rights reserved</p>
         <!-- <p class="made-by">by Pernilla Sterner</p> -->
       </div>
     </div>
