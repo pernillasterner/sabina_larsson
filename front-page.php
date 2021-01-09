@@ -50,7 +50,7 @@ var_dump(http_response_code());
     get_template_part( '/template-parts/about-sabina' );
     
     /**______INSTAGRAM FEED______**/
-    echo do_shortcode( '[instagram-feed]' );
+    echo do_shortcode( '[instagram-feed width=70 num=12 showbutton=false customavatar="https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/29339999_10156171285496322_6272156092009021440_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=BwNdjye0Mf8AX-UhlrZ&_nc_ht=scontent-arn2-2.xx&oh=959ea8262e4f5348d03bdece43d680f1&oe=601DFDFA" disablemobile=true showfollow=false]' );
 
 
   ?>
