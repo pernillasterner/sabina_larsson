@@ -8,7 +8,7 @@
         <div class="main-info">
           <div id="contact" class="contact-info">
             <h3>kontakt</h3>
-            <a class="mailto" href = "mailto: sabina@kontakt.se">sabina@kontakt.se</a>
+            <a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a>
             <ul class="social-icons">
               <li><a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=265555" target="_blank"><i class="fas fa-infinity"></i></a></li>
               <li><a href="https://www.instagram.com/sabinalarssonyoga" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="site-footer__copyrights">
-        <p class="copyrights">© 2020 Sabina Larsson. All rights reserved</p>
+        <p class="copyrights">© <?php echo date('Y')?> Sabina Larsson. All rights reserved</p>
         <!-- <p class="made-by">by Pernilla Sterner</p> -->
       </div>
     </div>

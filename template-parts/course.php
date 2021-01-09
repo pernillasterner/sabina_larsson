@@ -49,7 +49,7 @@ $courses = new WP_Query($args);
               </div>
             <?php } ?>
   
-          <div class="notification"><strong>Anmälan via mejl </strong><a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a></div>
+          <div class="notification"><strong>Betalning sker vid anmälan.</strong><a class="mailto" href = "mailto: sabinalarssonyoga@outlook.com">sabinalarssonyoga@outlook.com</a></div>
         
         </div>
 
