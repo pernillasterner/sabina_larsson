@@ -129,8 +129,7 @@ nav.main-navigation {
       align-items: center; }
       .container .site-footer__info .main-info .contact-info {
         margin: 20px;
-        text-align: center;
-        width: 33%; }
+        text-align: center; }
         .container .site-footer__info .main-info .contact-info h3 {
           text-transform: uppercase; }
         .container .site-footer__info .main-info .contact-info a {
