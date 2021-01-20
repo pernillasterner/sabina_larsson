@@ -9,6 +9,7 @@
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
+    background-position: center;
   }
   
   .hero-content {
@@ -113,6 +114,7 @@
       .payment {
         background-color: $black;
         h3, p {
+          text-decoration: none;
           color: $white;
         }
       }

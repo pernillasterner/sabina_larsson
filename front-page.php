@@ -1,8 +1,5 @@
 <?php get_header(); 
 
-// Get the new response code
-var_dump(http_response_code());
-
 ?>
 
   <?php while(have_posts()) : the_post(); ?>

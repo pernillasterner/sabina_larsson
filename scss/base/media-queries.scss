@@ -27,10 +27,10 @@
       .content-inner-container {
         .title-container {
           position: initial;
-          margin-left: -130px;
+          // margin-left: -130px;
           margin-bottom: 20px;
-          h2 { font-size: 1.4rem; }
-          p { font-size: 0.6rem; }
+          h2 { font-size: 1.4rem; text-align: center; }
+          p { font-size: 0.6rem; text-align: center; }
         }
         .info-container {
           margin-bottom: 20px;
@@ -174,10 +174,16 @@
     .content-container {
       .content-inner-container {
         .title-container {
-          margin-left: -100px;
+          // margin-left: -100px;
           h2 { font-size: 1.2rem; }
         }
       }
+    }
+  }
+  .position-container {
+    .position-image {
+      height: 120px;
+      width: 120px;
     }
   }
 }
