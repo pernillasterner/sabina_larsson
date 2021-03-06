@@ -11,7 +11,9 @@
 
     $image = get_field('inspiration_image_' . $i); ?>
 
-    <div class="position-image" style="background-image: url(<?php echo $image['url']; ?>);"></div>
+    <?php if($image['url']) : ?>
+      <div class="position-image" style="background-image: url(<?php echo $image['url']; ?>);"></div>
+    <?php endif; ?>
 
   <?php } ?>
   
