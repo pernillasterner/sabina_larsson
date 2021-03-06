@@ -32,15 +32,15 @@
 
 
     /**______CLASSES SECTION______**/
-    get_template_part( '/template-parts/class' );
-
+    get_template_part( '/template-parts/workshop-haga' );
+    
 
     /**______INSPIRATION SECTION______**/
     get_template_part( '/template-parts/inspiration' );
 
 
     /**______CLASSES SECTION______**/
-    get_template_part( '/template-parts/workshop-haga' );
+    get_template_part( '/template-parts/class' );
 
 
     /**______ABOUT SABINA SECTION______**/

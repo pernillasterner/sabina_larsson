@@ -45,7 +45,7 @@ $courses = new WP_Query($args);
                 <div class="textarea">
                   <p class="text"><?php  echo $content['text']; ?></p>
                 </div>
-                <h6 class="price"><?php  echo $content['price']; ?></h6>
+                <h6 class="price">Pris: <?php  echo $content['price']; ?></h6>
               </div>
             <?php } ?>
   
