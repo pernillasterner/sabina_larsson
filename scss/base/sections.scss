@@ -30,15 +30,28 @@
   }
 }
 
+// Section: Course
+.site-courses-content {
+  flex-direction: column;
+  .courses-wrapper {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5rem;
+  }
+}
+
 // Section: Image/Content 50/50
-.site-workshop-content {
+.site-workshop-content, .site-courses-content {
   display: flex;
   margin: 30px 0;
-  .image-container {
+  .image-container, .image-container-big {
     width: 50%;
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .image-container-big {
+    height: 1100px;
   }
   .content-container {
     position: relative;
