@@ -16,8 +16,8 @@
     }
   }
 
-  .site-workshop-content {
-    .image-container {
+  .site-workshop-content, .site-courses-content {
+    .image-container, .image-container-big {
       display: none;
     }
     .content-container {

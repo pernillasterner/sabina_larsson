@@ -432,46 +432,46 @@ nav.main-navigation {
       font-size: 1.5rem; }
     .site-hero-content .hero-content p.hero-text {
       font-size: 0.8rem; }
-  .site-workshop-content .image-container {
+  .site-workshop-content .image-container, .site-workshop-content .image-container-big, .site-courses-content .image-container, .site-courses-content .image-container-big {
     display: none; }
-  .site-workshop-content .content-container {
+  .site-workshop-content .content-container, .site-courses-content .content-container {
     width: 100%;
     display: initial;
     padding: 30px 0; }
-    .site-workshop-content .content-container .content-inner-container .title-container {
+    .site-workshop-content .content-container .content-inner-container .title-container, .site-courses-content .content-container .content-inner-container .title-container {
       position: initial;
       margin-bottom: 20px; }
-      .site-workshop-content .content-container .content-inner-container .title-container h2 {
+      .site-workshop-content .content-container .content-inner-container .title-container h2, .site-courses-content .content-container .content-inner-container .title-container h2 {
         font-size: 1.4rem;
         text-align: center; }
-      .site-workshop-content .content-container .content-inner-container .title-container p {
+      .site-workshop-content .content-container .content-inner-container .title-container p, .site-courses-content .content-container .content-inner-container .title-container p {
         font-size: 0.6rem;
         text-align: center; }
-    .site-workshop-content .content-container .content-inner-container .info-container {
+    .site-workshop-content .content-container .content-inner-container .info-container, .site-courses-content .content-container .content-inner-container .info-container {
       margin-bottom: 20px; }
-      .site-workshop-content .content-container .content-inner-container .info-container h3.heading {
+      .site-workshop-content .content-container .content-inner-container .info-container h3.heading, .site-courses-content .content-container .content-inner-container .info-container h3.heading {
         font-size: 1.0rem; }
-      .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading {
+      .site-workshop-content .content-container .content-inner-container .info-container h4.sub-heading, .site-courses-content .content-container .content-inner-container .info-container h4.sub-heading {
         font-size: 0.8rem; }
-      .site-workshop-content .content-container .content-inner-container .info-container .textarea {
+      .site-workshop-content .content-container .content-inner-container .info-container .textarea, .site-courses-content .content-container .content-inner-container .info-container .textarea {
         font-size: 0.6rem;
         margin: 20px 0 5px; }
-      .site-workshop-content .content-container .content-inner-container .info-container h6.price {
+      .site-workshop-content .content-container .content-inner-container .info-container h6.price, .site-courses-content .content-container .content-inner-container .info-container h6.price {
         font-size: 0.6rem; }
-    .site-workshop-content .content-container .content-inner-container .notification {
+    .site-workshop-content .content-container .content-inner-container .notification, .site-courses-content .content-container .content-inner-container .notification {
       position: initial;
       font-size: 0.6rem;
       margin-top: 10px; }
-    .site-workshop-content .content-container .general-info {
+    .site-workshop-content .content-container .general-info, .site-courses-content .content-container .general-info {
       position: initial;
       height: 60px; }
-      .site-workshop-content .content-container .general-info h3 {
+      .site-workshop-content .content-container .general-info h3, .site-courses-content .content-container .general-info h3 {
         font-size: 0.6rem; }
-      .site-workshop-content .content-container .general-info p {
+      .site-workshop-content .content-container .general-info p, .site-courses-content .content-container .general-info p {
         font-size: 0.6rem; }
-      .site-workshop-content .content-container .general-info .payment {
+      .site-workshop-content .content-container .general-info .payment, .site-courses-content .content-container .general-info .payment {
         background-color: #000; }
-        .site-workshop-content .content-container .general-info .payment h3, .site-workshop-content .content-container .general-info .payment p {
+        .site-workshop-content .content-container .general-info .payment h3, .site-workshop-content .content-container .general-info .payment p, .site-courses-content .content-container .general-info .payment h3, .site-courses-content .content-container .general-info .payment p {
           color: #fff; }
   .position-container {
     justify-content: center; }
