@@ -63,7 +63,8 @@ $courses = new WP_Query($args);
                   <div class="textarea">
                     <p class="text"><?php  echo $content['text']; ?></p>
                   </div>
-                  <h6 class="price">Pris: <?php  echo $content['price']; ?></h6>
+                  <?php $price = (!empty($content['price']) ? 'Pris: ' . $content['price'] : ''); ?>
+                  <h6 class="price"><?php echo $price; ?></h6>
                 </div>
               <?php } ?>
     

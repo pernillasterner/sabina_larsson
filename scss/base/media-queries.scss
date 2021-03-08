@@ -1,4 +1,10 @@
 // MEDIA QUERIES
+@media screen and (max-width: 420px) {
+  .position-container
+  .position-image:first-child {
+    display: block;
+  }
+}
 @media screen and (max-width: 800px) {
   .site-hero-content {
     .hero-image {
@@ -16,8 +22,8 @@
     }
   }
 
-  .site-workshop-content {
-    .image-container {
+  .site-workshop-content, .site-courses-content {
+    .image-container, .image-container-big {
       display: none;
     }
     .content-container {
