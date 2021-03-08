@@ -422,6 +422,11 @@ nav.main-navigation {
       margin-top: 2rem;
       font-weight: bold; }
 
+@media screen and (max-width: 420px) {
+  .position-container
+.position-image:first-child {
+    display: block; } }
+
 @media screen and (max-width: 800px) {
   .site-hero-content .hero-image {
     height: 400px; }
