@@ -61,7 +61,8 @@
         }
       }
       .general-info { 
-        position: initial; 
+        position: absolute; 
+        bottom: -50px;
         height: 60px;
         h3 { font-size: 0.6rem; }
         p { font-size: 0.6rem; }

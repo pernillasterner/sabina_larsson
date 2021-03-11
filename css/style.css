@@ -207,9 +207,9 @@ nav.main-navigation {
       color: #fff;
       font-size: 1.5rem; }
 
-.workshop-sabina, .site-courses-content {
+.workshop-sabina, .site-courses-content, .classes-haga {
   flex-direction: column; }
-  .workshop-sabina .courses-wrapper, .site-courses-content .courses-wrapper {
+  .workshop-sabina .courses-wrapper, .site-courses-content .courses-wrapper, .classes-haga .courses-wrapper {
     width: 100%;
     display: flex;
     margin-bottom: 5rem; }
@@ -468,7 +468,8 @@ nav.main-navigation {
       font-size: 0.6rem;
       margin-top: 10px; }
     .site-workshop-content .content-container .general-info, .site-courses-content .content-container .general-info {
-      position: initial;
+      position: absolute;
+      bottom: -50px;
       height: 60px; }
       .site-workshop-content .content-container .general-info h3, .site-courses-content .content-container .general-info h3 {
         font-size: 0.6rem; }
