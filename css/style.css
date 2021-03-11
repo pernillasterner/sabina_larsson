@@ -207,9 +207,9 @@ nav.main-navigation {
       color: #fff;
       font-size: 1.5rem; }
 
-.workshop-sabina, .site-courses-content {
+.workshop-sabina, .site-courses-content, .classes-haga {
   flex-direction: column; }
-  .workshop-sabina .courses-wrapper, .site-courses-content .courses-wrapper {
+  .workshop-sabina .courses-wrapper, .site-courses-content .courses-wrapper, .classes-haga .courses-wrapper {
     width: 100%;
     display: flex;
     margin-bottom: 5rem; }
